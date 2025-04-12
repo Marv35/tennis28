@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server"
-//import sgMail from "@sendgrid/mail"
+import sgMail from "@sendgrid/mail"
 
 // Configurer SendGrid avec la clé API
 sgMail.setApiKey(process.env.SENDGRID_API_KEY as string)
